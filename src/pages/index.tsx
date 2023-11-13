@@ -1,8 +1,12 @@
 
 import React from 'react'
-
+import DashboardLayout from '@/Layout'
 export default function index() {
   return (
-    <div>index</div>
+    <>
+    <DashboardLayout>
+        <h1>Hello</h1>
+    </DashboardLayout>
+    </>
   )
 }
