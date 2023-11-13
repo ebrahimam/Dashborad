@@ -1,0 +1,27 @@
+@import "../../sass/Index.module.scss";
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+   .inner {
+      @include Flex(row);
+      justify-content: center;
+      ul {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         gap: 32px;
+         @media screen and (max-width:600px){
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+         }
+
+      }
+   }
+
+
+}
+
+
