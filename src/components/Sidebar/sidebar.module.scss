@@ -1,9 +1,6 @@
 @import "../../sass/Index.module.scss";
 
-.container {
-    height: 100%;
-    width: 100%;
-    background-color: white;
+
    .inner {
       @include Flex(row);
       justify-content: center;
@@ -17,11 +14,7 @@
             flex-direction: row;
             align-items: center;
          }
-
       }
    }
-
-
-}
 
 

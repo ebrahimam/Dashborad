@@ -11,7 +11,7 @@ import {
 const Sidebar = () => {
   return (
     <>
-      <div className={style.container}>
+      
         <div className={style.inner}>
           <ul>
             <li>
@@ -51,7 +51,6 @@ const Sidebar = () => {
             </li>
           </ul>
         </div>
-      </div>
     </>
   );
 };
